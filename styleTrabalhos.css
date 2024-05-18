@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100,500,..900;1,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding:0;
+  font-size:18px;
+  list-style:none;
+  font-weight: 100;
+  text-decoration: none;
+}
+
+:root {
+  --branco: #FBFBFF;
+  --preto: #040F16;
+  --azul: #01BAEF;
+  --rosa: #D972FF;
+  --roxo: #9B7EDE;
+}
+a{
+  color: var(--preto);
+}
+body{
+  background-color:var(--branco);
+  color:var(--preto);
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+.home> a{
+  font-weight: bold;
+  color:var(--preto);
+}
+.menu{
+  min-width:300px;
+  max-width:800px;
+  margin:auto;
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  padding:18px;
+  font-weight: 100;
+  text-transform:uppercase;
+  flex-wrap:wrap;
+  gap:30px;
+}
+
+.navegacao-menu {
+  display:flex;
+  align-items:center;
+  flex-direction: row;
+  gap:30px;
+  flex-wrap:wrap;
+}
+.navegacao-menu>li>a{
+  color: var(--preto);
+}
+.navegacao-menu>li>a:hover{
+  color: var(--roxo);
+}
+main{
+  min-width:300px;
+  max-width:780px;
+  margin: auto;
+  padding:20px; 
+}
+
+h2{
+    font-size: 22px;
+    font-weight: bold;
+}
+.PaginaTrabalho >div{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content:space-between;
+}
+button>a{
+    font-weight: bold;
+}
+button{
+    background-color: var(--roxo);
+    color: var(--branco);
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+}
+button:hover{
+    color: var(--roxo);
+    background-color: var(--preto);
+}
+
+figure{
+    min-width:300px;
+    max-width:780px;
+    margin: auto;
+    padding:20px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+figure>img{
+    width: auto;
+}
+.PaginaTrabalho >p{
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.coluna{
+  display:flex;
+  flex-direction:column-reverse;
+  
+}
+.sobre{
+    min-width: 300px;
+    
+}
+.menu-lateral{
+  width:200px;
+  padding:20px;
+  display:flex;
+  align-items: center;
+  gap:10px;
+}
+.menu-lateral>figure>img{
+  width:150px;
+  border-radius:50%;
+}
+a:hover{
+  color:var(--roxo);
+}
+
+
+
+footer{
+  color:var(--branco);
+  background-color:var(--preto);
+  padding-bottom:10px;
+}
+footer>ul>li>a{
+  color:var(--branco);
+}
+footer > ul{
+  
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction: row;
+  gap:50px;
+  list-style-type: none;
+  padding-top:20px ;
+}
+footer>p{
+  text-align:center;
+  padding:10px;
+}

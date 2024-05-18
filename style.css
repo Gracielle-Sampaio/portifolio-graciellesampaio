@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100,500,..900;1,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding:0;
+  font-size:18px;
+  list-style:none;
+  font-weight: 100;
+  text-decoration: none;
+}
+
+:root {
+  --branco: #FBFBFF;
+  --preto: #040F16;
+  --azul: #01BAEF;
+  --rosa: #D972FF;
+  --roxo: #9B7EDE;
+}
+a{
+  color: var(--preto);
+}
+body{
+  background-color:var(--branco);
+  color:var(--preto);
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+.home> a{
+  font-weight: bold;
+  color:var(--preto);
+}
+.menu{
+  min-width:300px;
+  max-width:800px;
+  margin:auto;
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  padding:18px;
+  font-weight: 100;
+  text-transform:uppercase;
+  flex-wrap:wrap;
+  gap:30px;
+}
+
+.navegacao-menu {
+  display:flex;
+  align-items:center;
+  flex-direction: row;
+  gap:30px;
+  flex-wrap:wrap;
+}
+.navegacao-menu>li>a{
+  color: var(--preto);
+}
+.navegacao-menu>li>a:hover{
+  color: var(--roxo);
+}
+main{
+  min-width:300px;
+  max-width:780px;
+  margin: auto;
+  padding:20px; 
+}
+
+.banner-principal{
+  display:flex;
+  align-items:center;
+ margin-bottom:50px;
+
+}
+.capas>img{
+  
+  max-width:30%;
+  padding:10px;
+  border-radius:20px;
+}
+.capas{
+  min-width:300px;
+  max-width:800px;
+  height:500px;
+  flex-wrap:wrap;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  flex-direction: row;
+  overflow: hidden;
+  position: relative; 
+  gap: 15px;
+}
+.capa1{
+  width:250px;
+  height:450px;
+  border-radius:5px;
+  background-image: url('imagens/trabalhos/paginas coloridas/blasfemia/2.png');
+  background-size: 150%;
+  background-position: center;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.capa2{
+  width:250px;
+  height:450px;
+  border-radius:5px;
+  background-image: url('imagens/trabalhos/game design/projeto2/15.png');
+  background-size: 200%;
+  background-position: left;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.capa3{
+  width:250px;
+  height:450px;
+  border-radius:5px;
+  background-image: url('imagens/trabalhos/personagens/ocs/13.png');
+  background-size: 200%;
+  background-position: left;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.capa4{
+  width:250px;
+  height:450px;
+  border-radius:5px;
+  background-image: url('imagens/trabalhos/personagens/Iris/10.png');
+  background-size: 200%;
+  background-position: center;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.capa5{
+  width:250px;
+  height:450px;
+  border-radius:5px;
+  background-image: url('imagens/trabalhos/personagens/janine/3.png');
+  background-size: 200%;
+  background-position: left;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.capa6{
+  width:250px;
+  height:450px;
+  border-radius:5px;
+  background-image: url('imagens/trabalhos/personagens/ocs/11.png');
+  background-size: 200%;
+  background-position: left;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.jogo1{
+  width:250px;
+  height:450px;
+  border-radius:5px;
+  background-image: url('imagens/trabalhos/game design/projeto1/6.png');
+  background-size: 350%;
+  background-position: center;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.jogo2{
+  width:250px;
+  height:450px;
+  border-radius:5px;
+  background-image: url('imagens/trabalhos/game design/projeto2/15.png');
+  background-size: 200%;
+  background-position: left;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.jogo3{
+  width:250px;
+  height:450px;
+  border-radius:5px;
+  background-image: url('imagens/trabalhos/game design/projeto4/8.png');
+  background-size: 200%;
+  background-position: left;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.comic1{
+  width:250px;
+  height:450px;
+  border-radius:5px;
+  background-image: url('imagens/trabalhos/paginas coloridas/blasfemia/1.png');
+  background-size: 150%;
+  background-position: center;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.comic2{
+  width:250px;
+  height:450px;
+  border-radius:5px;
+  background-image: url('imagens/trabalhos/paginas coloridas/corAndy/4.png');
+  background-size: 150%;
+  background-position: left;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.study{
+  width:250px;
+  height:450px;
+  border-radius:5px;
+  background-image: url('imagens/trabalhos/estudos/avulsas/8.png');
+  background-size: 150%;
+  background-position: center;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.study2{
+  width:250px;
+  height:450px;
+  border-radius:5px;
+  background-image: url('imagens/trabalhos/estudos/pixelArt/12.png');
+  background-size: 150%;
+  background-position: left;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.banner-principal>h1{
+  position: absolute;
+  padding:30px;
+  font-weight: 800;
+  font-size:30px;
+}
+.banner-principal>span{
+  position: absolute;
+  margin-top:55px;
+  padding:30px;
+  font-weight: 100;
+  font-style:italic;
+  font-size:20px;
+}
+
+.coluna{
+  display:flex;
+  flex-direction:column-reverse;
+  
+}
+
+.menu-lateral{
+  width:150px;
+  padding:20px;
+}
+.menu-lateral>figure>img{
+  width:150px;
+  border-radius:50%;
+}
+a:hover{
+  color:var(--roxo);
+}
+
+.trabalhos{
+  display:grid;
+  grid-auto-flow: row;
+  grid-template-rows: 200px;
+  height: 100%;
+  min-width:300px;
+  max-width:780px;
+  gap:30px;
+  padding:10px;
+  align-items:center;
+}
+.trabalhos>div{
+  overflow-x:scroll;
+  border-radius:5px;
+  display:grid;
+  grid-auto-flow: column;
+  gap:30px;
+  padding:10px;
+  justify-content: start;
+  
+}
+.caixa{
+  width:200px;
+  height:200px;
+  border-radius:5px;
+  padding:10px;
+  transition: .5s ease;
+  opacity: 1;
+  
+}
+.caixa:hover{
+  opacity: 0;
+}
+
+.caixa> img{
+  
+  width:100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.iris{
+  background-image: url('imagens/trabalhos/personagens/Iris/10.png');
+  background-size: 150%;
+  background-position: center;
+  cursor: pointer;
+}
+
+.andy{
+  background-image: url('imagens/trabalhos/paginas coloridas/corAndy/3.png');
+  background-size: 150%;
+  background-position: center;
+  cursor: pointer;
+}
+
+
+
+.blasfemia{
+  background-image: url('imagens/trabalhos/paginas coloridas/blasfemia/1.png');
+  background-size: 150%;
+  background-position: center;
+  cursor: pointer;
+}
+.janine{
+  background-image: url('imagens/trabalhos/personagens/janine/4.png');
+  background-size: 150%;
+  background-position: center;
+  cursor: pointer;
+}
+.lia{
+  background-image: url('imagens/trabalhos/personagens/lia/43.png');
+  background-size: 150%;
+  background-position: center;
+  cursor: pointer;
+}
+.ocs{
+  background-image: url('imagens/trabalhos/personagens/ocs/6.png');
+  background-size: 150%;
+  background-position: center;
+  cursor: pointer;
+}
+.avulso{
+  background-image: url('imagens/trabalhos/estudos/avulsas/2.png');
+  background-size: 150%;
+  background-position: center;
+  cursor: pointer;
+}
+.pixelart{
+  background-image: url('imagens/trabalhos/estudos/pixelArt/17.png');
+  background-size: 150%;
+  background-position: center;
+  cursor: pointer;
+}
+.projeto1{
+  background-image: url('imagens/trabalhos/game design/projeto1/1.png');
+  background-size: 150%;
+  background-position: center;
+  cursor: pointer;
+}
+.projeto2{
+  background-image: url('imagens/trabalhos/game design/projeto2/13.png');
+  background-size: 150%;
+  background-position: center;
+  cursor: pointer;
+}
+.projeto3{
+  background-image: url('imagens/trabalhos/game design/projeto4/10.png');
+  background-size: 150%;
+  background-position: center;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 400px) {
+  .menu-lateral{
+   display:none;   
+}
+}
+
+footer{
+  color:var(--branco);
+  background-color:var(--preto);
+  padding-bottom:10px;
+}
+footer>ul>li>a{
+  color:var(--branco);
+}
+footer > ul{
+  
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction: row;
+  gap:50px;
+  list-style-type: none;
+  padding-top:20px ;
+}
+footer>p{
+  text-align:center;
+  padding:10px;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="\style.css">
+    <link rel="icon" type="image/x-icon" href="\imagens/id/estrela.png">
+    <title>Portfolio</title>
+
+</head>
+<body>
+ 
+    <header class="menu">
+      <h2 class="home"><a href="\index.html">Home</a></h2>
+      <nav>
+        <ul class="navegacao-menu">
+          <li ><a href="sobre.html">sobre</a></li>
+        </ul>
+      </nav>
+    </header>
+        
+    <main>
+      <header class="banner-principal">
+        <div class="capas">
+          <div id="jogo1"  class="jogo1"></div>
+          <div id="jogo2"  class="jogo2"></div>
+          <div id="jogo3"  class="jogo3"></div>
+        </div>
+
+        <h1>Game Design</h1>
+        <span>Gracielle Sampaio</span>
+      </header>
+      
+      <div class="coluna">
+        
+        <aside class="menu-lateral">
+          <figure><img src="\imagens/id/logo 1.png"></figure>
+          <container class="sobre">
+            <nav class="nav-menu-lateral">
+              <ul>
+                <li><a href="paginas.html">Páginas</a></li>
+                <li><a href="personagens.html">Personagens</a></li>
+                <li><a href="games.html">Games</a></li>
+                <li><a href="estudos.html">Estudos</a></li>
+              </ul>
+        </nav>
+          </container>
+        </aside>
+        
+      <container class="trabalhos">
+        
+
+        <div class="gameDesign" id="div4">
+          <div class="projeto1 caixa" id="projeto1">
+            <div class="conteudo" id="conteudoprojeto1"></div>
+          </div>
+          <div class="projeto2 caixa" id="projeto2">
+            <div class="conteudo" id="conteudoprojeto2"></div>
+          </div>
+          
+          <div class="projeto3 caixa" id="projeto3">
+            <div class="conteudo" id="conteudoprojeto3"></div>
+            
+          </div>
+        </div>
+      </container>
+        
+      </div>
+        
+    </main>
+    
+    <footer>
+      <ul>
+        <li><a href="https://www.instagram.com/hello_graci/" target="black">Instagram</a></li>
+        <li> <a href="https://github.com/Gracielle-Sampaio" target="black">GitHub </a></li>
+      </ul>
+      <p>Código feito por Graciellesampaio em Abril de 2024</p>
+    </footer>
+    <script src="scriptstrabalhos.js"></script>
+    <script>
+      const jogo1 = document.getElementById('jogo1');
+    jogo1.addEventListener('click', function() {
+    window.location.href = 'projeto1.html';
+    });
+      const jogo2 = document.getElementById('jogo2');
+    jogo2.addEventListener('click', function() {
+    window.location.href = 'projeto2.html';
+    });
+      const jogo3 = document.getElementById('jogo3');
+    jogo3.addEventListener('click', function() {
+    window.location.href = 'projeto3.html';
+    });
+    const projeto1 = document.getElementById('projeto1');
+    projeto1.addEventListener('click', function() {
+    window.location.href = 'projeto1.html';
+    });
+const projeto2 = document.getElementById('projeto2');
+    projeto2.addEventListener('click', function() {
+    window.location.href = 'projeto2.html';
+    });
+const projeto3 = document.getElementById('projeto3');
+    projeto3.addEventListener('click', function() {
+    window.location.href = 'projeto3.html';
+    });
+
+    </script>
+</body>
+</html>
