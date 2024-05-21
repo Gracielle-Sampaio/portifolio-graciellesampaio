@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
-    <link rel="stylesheet" href="\style.css">
-    <link rel="icon" type="image/x-icon" href="\imagens/id/estrela.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="imagens/id/estrela.png">
     <title>Portfolio</title>
 
 </head>
 <body>
  
     <header class="menu">
-      <h2 class="home"><a href="\index.html">Home</a></h2>
+      <h2 class="home"><a href="index.html">Home</a></h2>
       <nav>
         <ul class="navegacao-menu">
           <li ><a href="sobre.html">sobre</a></li>
@@ -23,8 +23,8 @@
     <main>
       <header class="banner-principal">
         <div class="capas">
-          <div id="comic1"  class="comic1"></div>
-          <div id="comic2"  class="comic2"></div>
+          <div id="study"  class="study"></div>
+          <div id="study2"  class="study2"></div>
           
         </div>
 
@@ -35,7 +35,7 @@
       <div class="coluna">
         
         <aside class="menu-lateral">
-          <figure><img src="\imagens/id/logo 1.png"></figure>
+          <figure><img src="imagens/id/logo 1.png"></figure>
           <container class="sobre">
             <nav class="nav-menu-lateral">
               <ul>
@@ -50,15 +50,15 @@
         
       <container class="trabalhos">
         
-        <div class="cores" id="div1">
-          
-          <div class="andy caixa" id="lobo">
-            <div class="conteudo" id="conteudo">
-            </div>
-          </div>
 
-          <div class="blasfemia caixa" id="blasfemia">
-            <div class="conteudo" id="conteudo"></div>
+        <div class="estudos" id="div3">
+          
+          <div class="pixelart caixa" id="pixelart">
+            <div class="conteudo" id="conteudopixel"></div>
+          </div>
+          
+          <div class="avulso caixa" id="avulso">
+            <div class="conteudo" id="conteudoavulso"></div>
           </div>
           
         </div>
@@ -76,24 +76,27 @@
       </ul>
       <p>Código feito por Graciellesampaio em Abril de 2024</p>
     </footer>
-    <script src="scriptstrabalhos.js"></script>
     <script>
-      const comic1 = document.getElementById('comic1');
-          comic1.addEventListener('click', function() {
-          window.location.href = 'blasfemia.html';
+      
+      const avulso = document.getElementById('avulso');
+          avulso.addEventListener('click', function() {
+          window.location.href = 'avulso.html';
           });
-      const comic2 = document.getElementById('comic2');
-          comic2.addEventListener('click', function() {
-          window.location.href = 'lobo.html';
+      const pixelart = document.getElementById('pixelart');
+          pixelart.addEventListener('click', function() {
+          window.location.href = 'pixelart.html';
           });
-      const blasfemia = document.getElementById('blasfemia');
-          blasfemia.addEventListener('click', function() {
-          window.location.href = 'blasfemia.html';
+
+          const study = document.getElementById('study');
+          study.addEventListener('click', function() {
+          window.location.href = 'avulso.html';
           });
-      const lobo = document.getElementById('lobo');
-          lobo.addEventListener('click', function() {
-          window.location.href = 'lobo.html';
+      const study2 = document.getElementById('study2');
+          study2.addEventListener('click', function() {
+          window.location.href = 'pixelart.html';
           });
+
+
 
     </script>
 
