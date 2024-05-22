@@ -7,7 +7,27 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="imagens/id/estrela.png">
     <title>Portfolio</title>
-
+    <style>
+      @media only screen and (max-width: 400px) {
+      .trabalhos{
+        display: grid;
+        grid-template-columns: 300px;
+        grid-template-rows: 230px 230px;
+        gap:30px;
+        padding:10px;
+        align-items:center;
+        height: 500px;
+        margin: auto;
+        justify-content: center;
+      }
+      .trabalhos>div{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        justify-content: center;
+      }
+    }
+    </style>
 </head>
 <body>
  
@@ -48,7 +68,7 @@
           </container>
         </aside>
         
-      <container class="trabalhos">
+      <container class="trabalhos trabalhopagina">
         
 
         <div class="estudos" id="div3">

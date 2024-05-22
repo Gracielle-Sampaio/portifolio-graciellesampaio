@@ -154,3 +154,41 @@ footer>p{
   text-align:center;
   padding:10px;
 }
+
+@media only screen and (max-width: 400px) {
+  .menu-lateral{
+    margin: auto;
+    display:flex;   
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+ }
+ .menu-lateral>figure>img{
+  width: 100px;
+  padding: 50px;
+ }
+ .menu-lateral>figure>img:hover{
+  filter: grayscale(1);
+ }
+  .capas{
+    height: 200px;
+    flex-wrap: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .trabalhos{
+    justify-items: center;
+    max-width: 450px;
+    overflow-x: hidden;
+    overflow:hidden;
+  }
+  .PaginaTrabalho>figure>img{
+    max-width: 300px;
+  }
+  
+}
